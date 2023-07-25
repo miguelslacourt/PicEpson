@@ -1,0 +1,23 @@
+{
+  "PICAgentID": "PICAgent1",
+  "PICServerURL": "https://10.0.160.106",
+  "PortNumberToPICServer": 8143,
+  "PortNumberFromPICServer": 8043,
+  "PortNumberFromPrinter": 8443,
+  "SendAgentRegistration": false,
+  "SendPrinterRegistration": false,
+  "SendStatusPeriod": 60,
+  "AuthenticationUserName": "epson",
+  "AuthenticationPassword": "epson",
+  "AllowUnsecurePrinters": true,
+  "DiscoverPrintersAtStart": true,
+  "GetStatusFromPrintersPeriod": 30,
+  "MaxConcurrentFirmwareUpdates": 5,
+  "UseExternalDatabase": true,
+  "DatabaseConnectString": "Server=localhost;Database=EpsonPICSAgentDB;User ID=root;Password=rtscna2018;Pooling=false",
+  "BASE_URL_AGENT": "/api/v1/agent",
+  "BASE_URL_PRINTER": "/api/v1/printer",
+  "HeartbeatEventSubscribers": [],
+  "AlertEventSubscribers": [],
+  "CompletionEventSubscribers": []
+}
